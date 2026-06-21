@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Env and secrets
+.env
+
+# Tooling
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Scratch frames exported for agent perception
+scratch/
+
+# Rejected logo concepts kept locally, not shipped
+assets/concepts/

@@ -1,24 +1,22 @@
-<p align="center">
-  <img src="assets/logo.png" alt="Svetovid" width="240" />
-</p>
+<div align="center">
 
-<h1 align="center">Svetovid</h1>
+<img src="assets/logo.png" alt="Svetovid" width="160" />
 
-<p align="center">
-  An MCP server for seeing and editing video in DaVinci Resolve Studio.<br/>
-  Orient, see the frame, assemble, grade, render.<br/>
-  <strong>The agent renders the real frame and looks at it.</strong>
-</p>
+# Svetovid
 
-<p align="center">
-  <a href="https://buymeacoffee.com/hello_emrah"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-c46b44?logo=buymeacoffee&logoColor=ffffff&style=for-the-badge" alt="Buy Me a Coffee" /></a>
-</p>
+**An MCP server for seeing and editing video in DaVinci Resolve Studio.**
+
+Svetovid is the four faced Slavic god who watches every direction at once, the all seer. *Svet* is light, *vid* is sight, the same ancient root that gives us the word video. The name signals the one thing most tooling cannot do: see.
+
+<a href="https://www.buymeacoffee.com/hello_emrah"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=hello_emrah&button_colour=9686D8&font_colour=3a2a10&coffee_colour=3a2a10&outline_colour=3a2a10&font_family=Inter" alt="Buy me a coffee" height="44" /></a>
+
+</div>
 
 ---
 
-Svetovid is the four faced Slavic god who watches every direction at once, the all seer. *Svet* is light, *vid* is sight, the same ancient root that gives us the word video. The name signals the one thing most tooling cannot do: see. This MCP server lets the model driving Claude Code look at the actual frame on your timeline and edit against it.
+Svetovid is a Model Context Protocol server for DaVinci Resolve Studio. Most tools drive an editor blind, pushing metadata they cannot see. Svetovid renders the frame at the playhead and hands it back, so the agent works from what is really on screen, not a guess. It speaks to Resolve over its scripting API, and you and the agent share the same open project. Built for personal use, shared openly, not productised.
 
-Most tools drive an editor blind, pushing metadata they cannot see. Svetovid renders the frame at the playhead and hands it back, so the agent works from what is really on screen, not a guess. It speaks to DaVinci Resolve Studio over its scripting API, and you and the agent share the same open project.
+Runs on your machine, alongside your open Resolve project.
 
 ## Tools
 
@@ -75,4 +73,4 @@ This tool is built for personal use and shared openly. It is not productised, mo
 
 ## License
 
-MIT
+MIT, see [LICENSE](LICENSE).
